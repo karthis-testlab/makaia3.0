@@ -20,7 +20,7 @@ import com.makaia.selenium.api.design.Locators;
 import static com.makaia.general.utils.PropertiesHandler.config;
 
 public class SeleniumBase extends Reporter implements Browser, Element {	
-	
+	//SOLID 
 	public void click(WebElement ele) {
 		ele.click();
 	}
